@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a7c7bb;
+    font-family: Arial, sans-serif;
+}
+
+.quote-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#quote {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #689d78;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #49745c;
+}
